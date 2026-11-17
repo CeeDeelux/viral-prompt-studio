@@ -1,0 +1,22 @@
+# Secrets and local state
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+.runtime/
+*.log
+# Dependencies and generated files
+.venv/
+venv/
+node_modules/
+frontend/dist/
+__pycache__/
+*.py[cod]
+*.zip
+# User output
+viral_dna.txt
+subtitles.txt
+viral_script.txt
+.vscode/
+.idea/
